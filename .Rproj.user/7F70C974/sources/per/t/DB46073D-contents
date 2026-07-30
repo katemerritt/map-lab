@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+
+website:
+  title: "MAP-Lab"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: people.qmd
+        text: People
+      - href: publications.qmd
+        text: Publications
+      - href: join.qmd
+        text: Join Us
+      - href: contact.qmd
+        text: Contact
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+
+# editor: visual
+
+

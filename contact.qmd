@@ -1,0 +1,22 @@
+---
+title: "contact"
+format: html
+---
+
+# Contact
+
+MAP Lab
+
+University College London
+
+Email:
+
+k.merritt@ucl.ac.uk
+
+https://x.com/drkatemerritt
+
+https://bsky.app/profile/katemerritt.bsky.social
+
+https://www.linkedin.com/in/kate-merritt/
+
+https://github.com/katemerritt/

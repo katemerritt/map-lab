@@ -1,0 +1,22 @@
+---
+title: "research"
+format: html
+---
+
+# Research
+
+## Mechanisms
+
+Understanding how alterations in brain structure, chemistry and immune function contribute to psychosis.
+
+## Biomarkers
+
+Developing objective biomarkers using MRI, 3D-MRSI and blood-based measures.
+
+## Prediction
+
+Building predictive models using multimodal data.
+
+## Prevention
+
+Using biological insights to improve early intervention and prevention.

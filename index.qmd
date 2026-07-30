@@ -1,0 +1,36 @@
+---
+title: "MAP-Lab"
+---
+
+# MAP Lab
+
+## Mechanisms and Prediction of Psychosis Lab
+
+### Understanding the brain to predict and prevent psychosis.
+
+The MAP Lab investigates the biological and environmental mechanisms underlying psychosis. We integrate neuroimaging, blood biomarkers, environmental risk factors and computational modelling to understand why psychosis develops and how it can be predicted earlier.
+
+![](images/hero.jpg)
+
+## Our Research
+
+### Brain Imaging
+
+Advanced MRI and spectroscopy to understand brain structure and chemistry.
+
+### Blood Biomarkers
+
+Inflammation, immune function and molecular markers associated with psychosis.
+
+### Environment
+
+How childhood adversity and the social environment influence brain development.
+
+### Prediction
+
+Machine learning approaches for identifying individuals at greatest risk.
+
+## Latest News
+
+- Ethics approval obtained for our new 7T neuroimaging study.
+- Recruiting participants for the 7T neuroimaging study.
