@@ -3,18 +3,20 @@ title: "Contact"
 format: html
 ---
 
-MAP Lab
+**MAP Lab**
 
+Division of Psychiatry  
 University College London
 
-Email:
+**Email:**  
+[k.merritt@ucl.ac.uk](mailto:k.merritt@ucl.ac.uk)
 
-k.merritt@ucl.ac.uk
+**Social media**
 
-https://x.com/drkatemerritt
+[X (Twitter)](https://x.com/drkatemerritt)
 
-https://bsky.app/profile/katemerritt.bsky.social
+[Bluesky](https://bsky.app/profile/katemerritt.bsky.social)
 
-https://www.linkedin.com/in/kate-merritt/
+[LinkedIn](https://www.linkedin.com/in/kate-merritt/)
 
-https://github.com/katemerritt/
+[GitHub](https://github.com/katemerritt/)

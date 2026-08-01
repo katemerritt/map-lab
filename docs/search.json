@@ -109,7 +109,7 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "import json\nwith open(“data/publications.json”) as f: pubs = json.load(f)\nfor p in pubs: print( f”{p[‘title’]}\n{p[‘authors’]} ({p[‘year’]})\nCitations: {p[‘citations’]}\n” )"
+    "text": "import json\n\nwith open(\"data/publications.json\") as f:\n    pubs = json.load(f)\n\nfor p in pubs:\n    print(\n        f\"**{p['title']}**  \\n\"\n        f\"{p['authors']} ({p['year']})  \\n\"\n        f\"Citations: {p['citations']}  \\n\\n\"\n    )"
   },
   {
     "objectID": "people.html#students",
