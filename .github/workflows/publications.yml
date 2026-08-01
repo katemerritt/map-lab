@@ -1,0 +1,41 @@
+name: Update publications
+
+on:
+  schedule:
+    # Runs every Monday at 8am
+    - cron: "0 8 * * 1"
+
+  workflow_dispatch:
+
+jobs:
+  update-publications:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          pip install scholarly requests
+
+      - name: Download publications
+        env:
+          SCHOLAR_ID: Z8DeDaMAAAAJ
+        run: |
+          python .github/workflows/update_publications.py
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add data/publications.json
+          git commit -m "Update publications" || exit 0
+          git push

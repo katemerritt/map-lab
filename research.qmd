@@ -1,9 +1,7 @@
 ---
-title: "research"
+title: "Research"
 format: html
 ---
-
-# Research
 
 ## Mechanisms
 

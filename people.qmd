@@ -1,9 +1,7 @@
 ---
-title: "people"
+title: "People"
 format: html
 ---
-
-# People
 
 ## PI
 

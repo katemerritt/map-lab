@@ -1,5 +1,20 @@
 ---
-title: "publications"
+title: "Publications"
 format: html
 ---
 
+
+
+```{python}
+import json
+
+with open("data/publications.json") as f:
+    pubs = json.load(f)
+
+for p in pubs:
+    print(
+        f"**{p['title']}**  
+        {p['authors']} ({p['year']})  
+        Citations: {p['citations']}  
+        "
+    )
