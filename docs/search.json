@@ -37,51 +37,51 @@
   {
     "objectID": "people.html",
     "href": "people.html",
-    "title": "people",
+    "title": "People",
     "section": "",
-    "text": "Lecturer in Human Neuroscience\nUniversity College London\nResearch interests:\n\nPsychosis\nNeuroimaging\nBrain glutamate\nEnvironmental risk\nClinical Trials\nInflammation\nMachine learning\n\n\n\n\n\n\n\n\n\n\n\n\nAnthony David Alice Egerton Matthew Kempton Rick Adams Daniel Hauke Rob McCutcheon Philip McGuire Katherine Beck Benson Ku Jennifer Dykxhoorn Camilo de la Fuente Sandoval Joseph Hayes Andy McQuillin Paola Dazzan Dominic Oliver Sharon Eager Barbara Dymerska Robin Murray"
+    "text": "Lecturer in Human Neuroscience\nUniversity College London\nResearch interests:\n\nPsychosis\nNeuroimaging\nBrain glutamate\nEnvironmental risk\nClinical Trials\nInflammation\nMachine learning"
   },
   {
     "objectID": "people.html#pi",
     "href": "people.html#pi",
-    "title": "people",
+    "title": "People",
     "section": "",
     "text": "Lecturer in Human Neuroscience\nUniversity College London\nResearch interests:\n\nPsychosis\nNeuroimaging\nBrain glutamate\nEnvironmental risk\nClinical Trials\nInflammation\nMachine learning"
   },
   {
     "objectID": "people.html#collaborators",
     "href": "people.html#collaborators",
-    "title": "people",
-    "section": "",
-    "text": "Anthony David Alice Egerton Matthew Kempton Rick Adams Daniel Hauke Rob McCutcheon Philip McGuire Katherine Beck Benson Ku Jennifer Dykxhoorn Camilo de la Fuente Sandoval Joseph Hayes Andy McQuillin Paola Dazzan Dominic Oliver Sharon Eager Barbara Dymerska Robin Murray"
+    "title": "People",
+    "section": "Collaborators",
+    "text": "Collaborators\nAnthony David Alice Egerton Matthew Kempton Rick Adams Daniel Hauke Rob McCutcheon Philip McGuire Katherine Beck Benson Ku Jennifer Dykxhoorn Camilo de la Fuente Sandoval Joseph Hayes Andy McQuillin Paola Dazzan Dominic Oliver Sharon Eager Barbara Dymerska Robin Murray"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "MAP-Lab",
+    "title": "MAP Lab",
     "section": "",
-    "text": "The MAP Lab investigates the biological and environmental mechanisms underlying psychosis. We integrate neuroimaging, blood biomarkers, environmental risk factors and computational modelling to understand why psychosis develops and how it can be predicted earlier.\n\n\n\n\n\n\n\nAdvanced MRI and spectroscopy to understand brain structure and chemistry.\n\n\n\nInflammation, immune function and molecular markers associated with psychosis.\n\n\n\nHow childhood adversity and the social environment influence brain development.\n\n\n\nMachine learning approaches for identifying individuals at greatest risk.\n\n\n\n\n\nEthics approval obtained for our new 7T neuroimaging study.\nRecruiting participants for the 7T neuroimaging study."
+    "text": "The MAP Lab investigates the biological and environmental mechanisms underlying psychosis. We integrate neuroimaging, blood biomarkers, environmental risk factors and computational modelling to understand why psychosis develops and how it can be predicted earlier."
   },
   {
     "objectID": "index.html#mechanisms-and-prediction-of-psychosis-lab",
     "href": "index.html#mechanisms-and-prediction-of-psychosis-lab",
-    "title": "MAP-Lab",
+    "title": "MAP Lab",
     "section": "",
     "text": "The MAP Lab investigates the biological and environmental mechanisms underlying psychosis. We integrate neuroimaging, blood biomarkers, environmental risk factors and computational modelling to understand why psychosis develops and how it can be predicted earlier."
   },
   {
     "objectID": "index.html#our-research",
     "href": "index.html#our-research",
-    "title": "MAP-Lab",
-    "section": "",
-    "text": "Advanced MRI and spectroscopy to understand brain structure and chemistry.\n\n\n\nInflammation, immune function and molecular markers associated with psychosis.\n\n\n\nHow childhood adversity and the social environment influence brain development.\n\n\n\nMachine learning approaches for identifying individuals at greatest risk."
+    "title": "MAP Lab",
+    "section": "Our Research",
+    "text": "Our Research\n\nBrain Imaging\nAdvanced MRI and spectroscopy to understand brain structure and chemistry.\n\n\nEnvironment\nHow childhood adversity and the social environment influence brain development.\n\n\nBlood Biomarkers\nInflammation, immune function and molecular markers associated with psychosis.\n\n\nPrediction\nMachine learning approaches for identifying individuals at greatest risk."
   },
   {
     "objectID": "index.html#latest-news",
     "href": "index.html#latest-news",
-    "title": "MAP-Lab",
-    "section": "",
-    "text": "Ethics approval obtained for our new 7T neuroimaging study.\nRecruiting participants for the 7T neuroimaging study."
+    "title": "MAP Lab",
+    "section": "Latest News",
+    "text": "Latest News\n\nEthics approval obtained for our new 7T neuroimaging study.\nRecruiting participants for the 7T Glu-MAP study."
   },
   {
     "objectID": "about.html",
@@ -93,15 +93,29 @@
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "contact",
+    "title": "Contact",
     "section": "",
-    "text": "Contact\nMAP Lab\nUniversity College London\nEmail:\nk.merritt@ucl.ac.uk\nhttps://x.com/drkatemerritt\nhttps://bsky.app/profile/katemerritt.bsky.social\nhttps://www.linkedin.com/in/kate-merritt/\nhttps://github.com/katemerritt/"
+    "text": "MAP Lab\nUniversity College London\nEmail:\nk.merritt@ucl.ac.uk\nhttps://x.com/drkatemerritt\nhttps://bsky.app/profile/katemerritt.bsky.social\nhttps://www.linkedin.com/in/kate-merritt/\nhttps://github.com/katemerritt/"
   },
   {
     "objectID": "join.html",
     "href": "join.html",
-    "title": "join",
+    "title": "Join",
     "section": "",
     "text": "Join the MAP Lab\nWe welcome enquiries from:\n\nPhD applicants\nMSc students\nClinical collaborators\nResearch assistants\n\nPlease get in touch if you are interested in our work."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "import json\nwith open(“data/publications.json”) as f: pubs = json.load(f)\nfor p in pubs: print( f”{p[‘title’]}\n{p[‘authors’]} ({p[‘year’]})\nCitations: {p[‘citations’]}\n” )"
+  },
+  {
+    "objectID": "people.html#students",
+    "href": "people.html#students",
+    "title": "People",
+    "section": "Students",
+    "text": "Students"
   }
 ]

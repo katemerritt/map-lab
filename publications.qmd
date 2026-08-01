@@ -1,9 +1,6 @@
 ---
 title: "Publications"
-format: html
 ---
-
-
 
 ```{python}
 import json
@@ -13,8 +10,7 @@ with open("data/publications.json") as f:
 
 for p in pubs:
     print(
-        f"**{p['title']}**  
-        {p['authors']} ({p['year']})  
-        Citations: {p['citations']}  
-        "
+        f"**{p['title']}**  \n"
+        f"{p['authors']} ({p['year']})  \n"
+        f"Citations: {p['citations']}  \n\n"
     )

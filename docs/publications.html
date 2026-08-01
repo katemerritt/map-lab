@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>publications – MAP-Lab</title>
+<title>Publications – MAP-Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -133,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">publications</h1>
+<h1 class="title">Publications</h1>
 </div>
 
 
@@ -150,6 +150,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>import json</p>
+<p>with open(“data/publications.json”) as f: pubs = json.load(f)</p>
+<p>for p in pubs: print( f”<strong>{p[‘title’]}</strong><br>
+{p[‘authors’]} ({p[‘year’]})<br>
+Citations: {p[‘citations’]}<br>
+” )</p>
 
 
 
