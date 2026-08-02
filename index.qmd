@@ -35,3 +35,5 @@ Machine learning approaches for identifying individuals at greatest risk.
 
 - Ethics approval obtained for our new 7T neuroimaging study.
 - Recruiting participants for the 7T Glu-MAP study.
+
+![](images/UCL200.jpg)

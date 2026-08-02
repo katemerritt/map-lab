@@ -19,3 +19,8 @@ Building predictive models using multimodal data.
 ## Prevention
 
 Using biological insights to improve early intervention and prevention.
+
+::: {layout-ncol=2}
+![](images/BBRF_logo.png){height=90px}
+![](images/SIRS.png){height=90px}
+:::
