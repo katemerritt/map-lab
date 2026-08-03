@@ -26,13 +26,13 @@ Using biological insights to improve early intervention and prevention.
 
 ::: {.column width="50%"}
 
-![](images/BBRF_logo.png){width=200px}
+![](images/BBRF_logo.png){width=300px}
 
 :::
 
 ::: {.column width="50%"}
 
-![](images/SIRS.png){width=200px}
+![](images/SIRS.png){width=300px}
 
 :::
 

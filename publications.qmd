@@ -2,8 +2,12 @@
 title: "Publications"
 ---
 
+
 ```{python}
+#| echo: false
+
 import json
+from IPython.display import display, Markdown
 
 with open("data/publications.json") as f:
     pubs = json.load(f)
@@ -19,15 +23,16 @@ for p in pubs:
     else:
         publication = ""
 
-    print(
+    display(Markdown(
         f"""
 **{title}**
 
-{year}  
+{year}
 
 {publication}
 
 <br>
 """
-    )
+    ))
 ```
+

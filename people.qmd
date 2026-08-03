@@ -5,6 +5,10 @@ format: html
 
 ## PI
 
+<div class="profile">
+
+<div class="profile-text">
+
 ### Dr Kate Merritt
 
 Lecturer in Human Neuroscience  
@@ -20,7 +24,7 @@ Research interests:
 - Inflammation
 - Machine learning
 
-<div class="profile-image">
+</div>
 
 ![](images/KateMerritt.png){width=250px}
 
@@ -30,17 +34,21 @@ Research interests:
 
 ## Students
 
-<div class="profile-image">
+<div class="profile">
 
-![](images/2026_lab.jpeg){width=350px}
-
-</div>
+<div class="profile-text">
 
 [Sarah Ashley](https://link.springer.com/article/10.1007/s10803-024-06578-x) • 
 [Ava Mason](https://academic.oup.com/schizophreniabulletin/advance-article/doi/10.1093/schbul/sbaf184/8305263) •
 [Jehanita Jesuthasan](https://www.sciencedirect.com/science/article/pii/S0920996426000290) •
-Laurie Haig • Shalini Bhattacharya • Roshni Islam •  Mariam Arafa •  Hongyi Zhang • 
-Shuang Wang • Maya Mathur 
+Laurie Haig • Shalini Bhattacharya • Roshni Islam • Mariam Arafa • Hongyi Zhang • 
+Shuang Wang • Maya Mathur
+
+</div>
+
+![](images/2026_lab.jpeg){width=350px}
+
+</div>
 
 ---
 

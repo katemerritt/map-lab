@@ -50,3 +50,18 @@ p + ul {
   text-align: left;
   margin-top: 1rem;
 }
+
+.profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.profile img {
+  border-radius: 10px;
+}
+
+.profile-text {
+  max-width: 600px;
+}

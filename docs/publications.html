@@ -23,41 +23,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -185,154 +150,278 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div id="f0683e7f" class="cell" data-execution_count="1">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">"data/publications.json"</span>) <span class="im">as</span> f:</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    pubs <span class="op">=</span> json.load(f)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> p <span class="kw">in</span> pubs:</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>        <span class="ss">f"**</span><span class="sc">{</span>p[<span class="st">'title'</span>]<span class="sc">}</span><span class="ss">**  </span><span class="ch">\n</span><span class="ss">"</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>        <span class="ss">f"</span><span class="sc">{</span>p[<span class="st">'authors'</span>]<span class="sc">}</span><span class="ss"> (</span><span class="sc">{</span>p[<span class="st">'year'</span>]<span class="sc">}</span><span class="ss">)  </span><span class="ch">\n</span><span class="ss">"</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        <span class="st">""</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>**Nature of glutamate alterations in schizophrenia: a meta-analysis of proton magnetic resonance spectroscopy studies**  
- (2016)  
-
-**Response to initial antipsychotic treatment in first episode psychosis is related to anterior cingulate glutamate levels: a multicentre 1H-MRS study (OPTiMiSE)**  
- (2018)  
-
-**Association of age, antipsychotic medication, and symptom severity in schizophrenia with proton magnetic resonance spectroscopy brain glutamate level: a mega-analysis of …**  
- (2021)  
-
-**Relationship between glutamate dysfunction and symptoms and cognitive function in psychosis**  
- (2013)  
-
-**Effects of Antipsychotic Administration on Brain Glutamate in Schizophrenia: A Systematic Review of Longitudinal 1H-MRS Studies**  
- (2017)  
-
-**Relationship between brain glutamate levels and clinical outcome in individuals at ultra high risk of psychosis**  
- (2014)  
-
-**Variability and magnitude of brain glutamate levels in schizophrenia: a meta and mega-analysis**  
- (2023)  
-
-**Towards precision medicine in psychosis: benefits and challenges of multimodal multicenter studies—PSYSCAN: translating neuroimaging findings from research into clinical practice**  
- (2020)  
-
-**Longitudinal structural MRI findings in individuals at genetic and clinical high risk for psychosis: a systematic review**  
- (2021)  
-
-**Dopamine and glutamate in individuals at high risk for psychosis: a meta‐analysis of in vivo imaging findings and their variability compared to controls**  
- (2021)  
-
-**Remission from antipsychotic treatment in first episode psychosis related to longitudinal changes in brain glutamate**  
- (2019)  
-
-**The Sander parallelogram illusion dissociates action and perception despite control for the litany of past confounds**  
- (2018)  
-
-**Exploring causal mechanisms of psychosis risk**  
- (2024)  
-
-**Molecular and micro-architectural mapping of gray matter alterations in psychosis**  
- (2025)  
-
-**The impact of cumulative obstetric complications and childhood trauma on brain volume in young people with psychotic experiences**  
- (2023)  
-
-**PSYSCAN multi-centre study: baseline characteristics and clinical outcomes of the clinical high risk for psychosis sample**  
- (2025)  
-
-**Symptom remission and brain cortical networks at first clinical presentation of psychosis: the OPTiMiSE study**  
- (2021)  
-
-**Glyceryl trinitrate in first-episode psychosis unmedicated with antipsychotics: A randomised controlled pilot study**  
- (2020)  
-
-**Identifying electroencephalography biomarkers in individuals at clinical high risk for psychosis in an international multi-site study**  
- (2022)  
-
-**Brain glutamate levels and antipsychotic response in schizophrenia**  
- (2016)  
-
-**A Longitudinal study of head circumference trajectories in autism and autistic traits**  
- (2026)  
-
-**White matter microstructure abnormalities in individuals at high risk for psychosis: A meta-analysis of fractional anisotropic changes associated with transition to psychosis**  
- (2024)  
-
-**165. Nature of glutamate alterations in schizophrenia: a meta-analysis of proton magnetic resonance spectroscopy studies**  
- (2017)  
-
-**Inflammatory markers (IL-6 and CRP) in childhood and their association with brain structure and psychotic experiences in adulthood**  
- (2026)  
-
-**Increased brain-age gap in young adults with psychotic experiences**  
- (2025)  
-
-**Variability and magnitude of brain glutamate levels in schizophrenia: A meta and mega-analysis**  
- (2024)  
-
-**1H-MRS brain glutamate levels in schizophrenia; A mega-analysis investigating the association with age, antipsychotic medication and symptom severity**  
- (2021)  
-
-**Neurometabolites and Antipsychotic Response in Psychosis: A Mega-Analysis**  
- (2026)  
-
-**The association between childhood Toxoplasma gondii, psychotic experiences and grey matter volume: A population-based cohort study**  
- (2026)  
-
-**Neurometabolites in antipsychotic-responsive versus non-responsive psychosis: a mega-analysis**  
- (2026)  
-
-**1H-MRS metabolites in antipsychotic-responsive versus non-responsive psychosis: a meta- and mega-analysis**  
- (2025)  
-
-**The effect of developmental trauma on brain structures involved in threat and memory processing and its relation to psychotic experiences in adulthood**  
- (2025)  
-
-**# 7098 Head circumference trajectories in autism and psychotic experiences**  
- (2025)  
-
-**A letter to the editor: The effects of alcohol use on brain glutamate in first episode psychosis**  
- (2024)  
-
-**A Meta-Analysis of Longitudinal Total Brain Volume Trajectories in Autism**  
- (2023)  
-
-**Do brain regions involved in threat processing mediate the association between developmental trauma and psychosis**  
- (2023)  
-
-**Do brain regions associated with memory processing mediate the relationship between developmental trauma and psychosis?**  
- (2022)  
-
-**Reduced amygdala volume mediates the association between developmental trauma and psychotic experiences in adulthood–findings from a population-based cohort**  
- (2022)  
-
-**M157. A MULTICENTRE STUDY OF 1H-MRS BRAIN GLUTAMATE LEVELS IN SCHIZOPHRENIA; INVESTIGATING THE EFFECT OF ANTIPSYCHOTIC MEDICATION, SYMPTOM SEVERITY AND AGE**  
- (2020)  
-
-**Corrigendum to: Towards Precision Medicine in Psychosis: Benefits and Challenges of Multimodal Multicenter Studies-PSYSCAN: Translating Neuroimaging Findings From Research into …**  
- (2020)  
-
-**O5. 6. REMISSION FROM ANTIPSYCHOTIC TREATMENT IN FIRST EPISODE PSYCHOSIS RELATED TO LONGITUDINAL CHANGES IN BRAIN GLUTAMATE LEVELS**  
- (2019)  
-
-**Is Online Motor Control Really Impaired In Parkinson's Disease?**  
- (2016)  
-
-**Dissociating Action and Perception Using a 3D Variant of the Sanders Illusion While Controlling for Visual and Haptic Feedback**  
- (2014)  
-
-**Poster# S48 THE REPRODUCIBILITY OF 1H-MRS GLUTAMATE CONCENTRATION ESTIMATES AT 3 TESLA, IMPLICATIONS FOR GLUTAMATE IMAGING IN SCHIZOPHRENIA**  
- (2014)  
-
-**Dopamina y glutamato en personas con alto riesgo de psicosis: un metaanálisis de los hallazgos de imágenes in vivo y su variabilidad en comparación con los controles**  
- ()  
-</code></pre>
+<div id="1c1bd140" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>The association between childhood Toxoplasma gondii, psychotic experiences and grey matter volume: A population-based cohort study</strong></p>
+<p>2026</p>
+<p><a href="https://doi.org/10.1016/j.schres.2026.01.022">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Increased Brain-Age Gap in Young Adults With Psychotic Experiences</strong></p>
+<p>2026</p>
+<p><a href="https://doi.org/10.1016/j.bpsgos.2025.100643">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Neurometabolites and Antipsychotic Response in Psychosis: A Mega-Analysis</strong></p>
+<p>2026</p>
+<p><a href="https://doi.org/10.1001/jamapsychiatry.2026.1674">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Inflammatory markers (IL-6 and CRP) in childhood and their association with brain structure and psychotic experiences in adulthood</strong></p>
+<p>2026</p>
+<p><a href="https://doi.org/10.1016/j.bbi.2025.106247">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong><sup>1</sup> H-MRS metabolites in antipsychotic-responsive versus non-responsive psychosis: a meta- and mega-analysis</strong></p>
+<p>2025</p>
+<p><a href="https://doi.org/10.64898/2025.12.10.25341974">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Neurometabolites in Antipsychotic-Responsive Versus Non-Responsive Psychosis: A Meta-Analysis</strong></p>
+<p>2025</p>
+<p><a href="https://doi.org/10.1016/j.nsa.2025.105877">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>PSYSCAN multi-centre study: baseline characteristics and clinical outcomes of the clinical high risk for psychosis sample</strong></p>
+<p>2025</p>
+<p><a href="https://doi.org/10.1038/s41537-025-00598-x">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>521. Neurometabolites in Antipsychotic-Responsive Versus Non-Responsive Psychosis: A Meta-Analysis</strong></p>
+<p>2025</p>
+<p><a href="https://doi.org/10.1016/j.biopsych.2025.02.760">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Molecular and micro-architectural mapping of gray matter alterations in psychosis</strong></p>
+<p>2025</p>
+<p><a href="https://doi.org/10.1038/s41380-024-02724-0">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Head circumference trajectories in autism and psychotic experiences</strong></p>
+<p>2025</p>
+<p><a href="https://doi.org/10.1136/JNNP-2024-BNPA.27">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>A Longitudinal Study of Head Circumference Trajectories in Autism and Autistic Traits</strong></p>
+<p>2024</p>
+<p><a href="https://doi.org/10.1007/s10803-024-06578-x">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Multivariable prediction of functional outcome after first-episode psychosis: a crossover validation approach in EUFEST and PSYSCAN</strong></p>
+<p>2024</p>
+<p><a href="https://doi.org/10.1038/s41537-024-00505-w">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Exploring causal mechanisms of psychosis risk</strong></p>
+<p>2024</p>
+<p><a href="https://doi.org/10.1016/j.neubiorev.2024.105699">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>White Matter Microstructure Abnormalities in Individuals at High Risk for Psychosis: A Meta-Analysis of Fractional Anisotropic Changes Associated With Transition to Psychosis</strong></p>
+<p>2024</p>
+<p><a href="https://doi.org/10.1192/bjo.2024.220">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Variability and Magnitude of Brain Glutamate Levels in Schizophrenia: A Meta and Mega-Analysis</strong></p>
+<p>2024</p>
+<p><a href="https://doi.org/10.1016/j.biopsych.2024.02.020">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>A letter to the editor: The effects of alcohol use on brain glutamate in first episode psychosis</strong></p>
+<p>2024</p>
+<p><a href="https://doi.org/10.1016/j.schres.2024.02.013">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>The impact of cumulative obstetric complications and childhood trauma on brain volume in young people with psychotic experiences</strong></p>
+<p>2023</p>
+<p><a href="https://doi.org/10.1038/s41380-023-02295-6">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Variability and magnitude of brain glutamate levels in schizophrenia: a meta and mega-analysis</strong></p>
+<p>2023</p>
+<p><a href="https://doi.org/10.1038/s41380-023-01991-7">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Do brain regions involved in threat processing mediate the association between developmental trauma and psychosis</strong></p>
+<p>2023</p>
+<p><a href="https://doi.org/10.1016/j.nsa.2023.101069">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Molecular and micro-architectural mapping of gray matter alterations in psychosis</strong></p>
+<p>2023</p>
+<p><a href="https://doi.org/10.1101/2023.12.11.23299652">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Identifying Electroencephalography Biomarkers in Individuals at Clinical High Risk for Psychosis in an International Multi-Site Study</strong></p>
+<p>2022</p>
+<p><a href="https://doi.org/10.3389/fpsyt.2022.828376">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Do brain regions associated with memory processing mediate the relationship between developmental trauma and psychosis?</strong></p>
+<p>2022</p>
+<p><a href="https://doi.org/10.1016/j.nsa.2022.100892">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Reduced amygdala volume mediates the association between developmental trauma and psychotic experiences in adulthood – findings from a population-based cohort</strong></p>
+<p>2022</p>
+<p><a href="https://doi.org/10.1016/j.nsa.2022.100891">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Variability and Magnitude of Brain Glutamate Levels in Schizophrenia: A Meta And Mega-Analysis</strong></p>
+<p>2022</p>
+<p><a href="https://doi.org/10.21203/rs.3.rs-2057436/v1">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Dopamine and glutamate in individuals at high risk for psychosis: a meta‐analysis of in vivo imaging findings and their variability compared to controls</strong></p>
+<p>2021</p>
+<p><a href="https://doi.org/10.1002/wps.20893">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Association of Age, Antipsychotic Medication, and Symptom Severity in Schizophrenia With Proton Magnetic Resonance Spectroscopy Brain Glutamate Level: a Mega-analysis of Individual Participant-Level Data</strong></p>
+<p>2021</p>
+<p><a href="https://doi.org/10.1001/jamapsychiatry.2021.0380">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Longitudinal Structural MRI Findings in Individuals at Genetic and Clinical High Risk for Psychosis: A Systematic Review</strong></p>
+<p>2021</p>
+<p><a href="https://doi.org/10.3389/fpsyt.2021.620401">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Symptom Remission and Brain Cortical Networks at First Clinical Presentation of Psychosis: The OPTiMiSE Study.</strong></p>
+<p>2020</p>
+<p><a href="https://doi.org/10.1093/schbul/sbaa115">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Glyceryl trinitrate in first-episode psychosis unmedicated with antipsychotics: A randomised controlled pilot study.</strong></p>
+<p>2020</p>
+<p><a href="https://doi.org/10.1177/0269881120922967">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>M157. A MULTICENTRE STUDY OF 1H-MRS BRAIN GLUTAMATE LEVELS IN SCHIZOPHRENIA; INVESTIGATING THE EFFECT OF ANTIPSYCHOTIC MEDICATION, SYMPTOM SEVERITY AND AGE</strong></p>
+<p>2020</p>
+<p><a href="https://doi.org/10.1093/schbul/sbaa030.469">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>T40. GLYCERYL TRINITRATE IN FIRST EPISODE PSYCHOSIS UNMEDICATED WITH ANTIPSYCHOTICS: A RANDOMISED CONTROLLED FEASIBILITY STUDY</strong></p>
+<p>2020</p>
+<p><a href="https://doi.org/10.1093/schbul/sbaa029.600">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>A MULTICENTRE STUDY OF 1H-MRS BRAIN GLUTAMATE LEVELS IN SCHIZOPHRENIA; INVESTIGATING THE EFFECT OF ANTIPSYCHOTIC MEDICATION, SYMPTOM SEVERITY AND AGE</strong></p>
+<p>2020</p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Towards Precision Medicine in Psychosis: Benefits and Challenges of Multimodal Multicenter Studies-PSYSCAN: Translating Neuroimaging Findings From Research into Clinical Practice</strong></p>
+<p>2020</p>
+<p><a href="https://doi.org/10.1093/schbul/sbz067">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Remission from antipsychotic treatment in first episode psychosis related to longitudinal changes in brain glutamate.</strong></p>
+<p>2019</p>
+<p><a href="https://doi.org/10.1038/s41537-019-0080-1">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>REMISSION FROM ANTIPSYCHOTIC TREATMENT IN FIRST EPISODE PSYCHOSIS RELATED TO LONGITUDINAL CHANGES IN BRAIN GLUTAMATE LEVELS</strong></p>
+<p>2019</p>
+<p><a href="https://doi.org/10.1093/schbul/sbz021.214">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Response to initial antipsychotic treatment in first episode psychosis is related to anterior cingulate glutamate levels: a multicentre 1H-MRS study (OPTiMiSE)</strong></p>
+<p>2018</p>
+<p><a href="https://doi.org/10.1038/s41380-018-0082-9">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Effects of Antipsychotic Administration on Brain Glutamate in Schizophrenia: A Systematic Review of Longitudinal 1H-MRS Studies</strong></p>
+<p>2017</p>
+<p><a href="https://doi.org/10.3389/fpsyt.2017.00066">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>SA83. Brain Glutamate Levels and Antipsychotic Response in Schizophrenia</strong></p>
+<p>2017</p>
+<p><a href="https://doi.org/10.1093/schbul/sbx023.081">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>BRAIN GLUTAMATE LEVELS AND ANTIPSYCHOTIC RESPONSE IN SCHIZOPHRENIA</strong></p>
+<p>2017</p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>NATURE OF GLUTAMATE ALTERATIONS IN SCHIZOPHRENIA: A META-ANALYSIS OF PROTON MAGNETIC RESONANCE SPECTROSCOPY STUDIES</strong></p>
+<p>2017</p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Nature of Glutamate Alterations in Schizophrenia: A Meta-analysis of Proton Magnetic Resonance Spectroscopy Studies.</strong></p>
+<p>2016</p>
+<p><a href="https://doi.org/10.1001/jamapsychiatry.2016.0442">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Relationship Between Brain Glutamate Levels and Clinical Outcome in Individuals at Ultra High Risk of Psychosis</strong></p>
+<p>2014</p>
+<p><a href="https://doi.org/10.1038/npp.2014.143">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>RELATIONSHIP BETWEEN BRAIN GLUTAMATE CONCENTRATIONS AND FUNCTIONAL OUTCOME IN INDIVIDUALS AT ULTRA HIGH RISK OF PSYCHOSIS</strong></p>
+<p>2014</p>
+<p><a href="https://doi.org/10.1016/S0920-9964(14)70055-6">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>THE REPRODUCIBILITY OF 1H-MRS GLUTAMATE CONCENTRATION ESTIMATES AT 3 TESLA, IMPLICATIONS FOR GLUTAMATE IMAGING IN SCHIZOPHRENIA</strong></p>
+<p>2014</p>
+<p><a href="https://doi.org/10.1016/S0920-9964(14)70327-5">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>Relationship between glutamate dysfunction and symptoms and cognitive function in psychosis</strong></p>
+<p>2013</p>
+<p><a href="https://doi.org/10.3389/fpsyt.2013.00151">View publication</a></p>
+<p><br></p>
+</div>
+<div class="cell-output cell-output-display cell-output-markdown">
+<p><strong>The Effect of Developmental Trauma on Brain Structures Involved in Threat and Memory Processing and Its Relation to Psychotic Experiences in Adulthood</strong></p>
+<p><a href="https://doi.org/10.1093/schbul/sbaf184">View publication</a></p>
+<p><br></p>
 </div>
 </div>
 
