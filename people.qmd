@@ -56,8 +56,12 @@ Shuang Wang • Maya Mathur
 
 ---
 
+
 ## Collaborators
 
+<div class="collaborator-profile">
+
+<div class="collaborator-text">
 
 [Anthony David](https://www.nature.com/articles/s41380-023-02295-6) •
 [Alice Egerton](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2850582) •
@@ -85,3 +89,17 @@ Gilbert Hangel •
 [Rachel Upthegrove](https://www.sciencedirect.com/science/article/pii/S0889159125004891?via%3Dihub) •
 [Edward Palmer](https://www.sciencedirect.com/science/article/pii/S0889159125004891?via%3Dihub) •
 Paris Lalousis
+
+</div>
+
+<div class="collaborator-images">
+
+![](images/sirs_2026_2.jpeg)
+
+![](images/bap.jpg)
+
+![](images/SOBP_2015.jpg)
+
+</div>
+
+</div>
