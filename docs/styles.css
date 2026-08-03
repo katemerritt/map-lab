@@ -1,0 +1,52 @@
+/* css styles */
+
+.hero {
+  text-align: center;
+}
+
+h1 {
+  color: #003B5C;
+}
+
+h2 {
+  color: #2A6F97;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  line-height: 1.7;
+}
+
+.navbar {
+  font-weight: 600;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.callout {
+  background: #eef7fb;
+  padding: 20px;
+  border-left: 5px solid #2A6F97;
+}
+
+ul {
+  padding-left: 1.2rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+li {
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+
+p + ul {
+  margin-top: 0.2rem;
+}
+
+.profile-image {
+  text-align: left;
+  margin-top: 1rem;
+}
