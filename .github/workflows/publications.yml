@@ -6,6 +6,9 @@ on:
 
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-publications:
 
@@ -21,18 +24,25 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install dependencies
+      - name: Install Python packages
         run: |
           pip install requests
 
-      - name: Download publications
+      - name: Install Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Update publications
         run: |
           python .github/workflows/update_publications.py
 
+      - name: Render website
+        run: |
+          quarto render
+
       - name: Commit changes
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add data/publications.json
-          git commit -m "Update publications" || exit 0
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/publications.json docs
+          git commit -m "Automatic publication update" || exit 0
           git push
