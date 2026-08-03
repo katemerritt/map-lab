@@ -65,3 +65,22 @@ p + ul {
 .profile-text {
   max-width: 600px;
 }
+
+.student-profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.student-text {
+  flex: 1.2;
+}
+
+.student-image {
+  flex: 0.8;
+}
+
+.student-image img {
+  width: 100%;
+  max-width: 500px;
+}
