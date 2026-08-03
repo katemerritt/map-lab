@@ -1,25 +1,42 @@
-import os
+import requests
 import json
-from scholarly import scholarly
 
-scholar_id = os.environ["SCHOLAR_ID"]
+ORCID = "0000-0002-5716-4941"
 
-author = scholarly.search_author_id(scholar_id)
-author = scholarly.fill(author)
+url = f"https://pub.orcid.org/v3.0/{ORCID}/works"
+
+headers = {
+    "Accept": "application/json"
+}
+
+response = requests.get(url, headers=headers)
+response.raise_for_status()
+
+data = response.json()
 
 publications = []
 
-for pub in author["publications"]:
-    details = pub["bib"]
+for work in data["group"]:
+    summary = work["work-summary"][0]
+
+    title = summary["title"]["title"]["value"]
+
+    year = ""
+    if summary.get("publication-date"):
+        year = summary["publication-date"].get("year", {}).get("value", "")
+
+    doi = ""
+
+    for external_id in summary.get("external-ids", {}).get("external-id", []):
+        if external_id.get("external-id-type") == "doi":
+            doi = external_id.get("external-id-value")
 
     publications.append({
-        "title": details.get("title", ""),
-        "authors": details.get("author", ""),
-        "year": details.get("pub_year", ""),
-        "journal": details.get("venue", ""),
-        "url": pub.get("pub_url", ""),
-        "citations": pub.get("num_citations", 0)
+        "title": title,
+        "year": year,
+        "doi": doi
     })
+
 
 with open("data/publications.json", "w") as f:
     json.dump(publications, f, indent=2)

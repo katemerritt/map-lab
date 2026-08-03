@@ -2,7 +2,6 @@ name: Update publications
 
 on:
   schedule:
-    # Runs every Monday at 8am
     - cron: "0 8 * * 1"
 
   workflow_dispatch:
@@ -24,11 +23,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install scholarly requests
+          pip install requests
 
       - name: Download publications
-        env:
-          SCHOLAR_ID: Z8DeDaMAAAAJ
         run: |
           python .github/workflows/update_publications.py
 

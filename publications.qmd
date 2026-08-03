@@ -9,9 +9,25 @@ with open("data/publications.json") as f:
     pubs = json.load(f)
 
 for p in pubs:
+    title = p.get("title", "")
+    year = p.get("year", "")
+    doi = p.get("doi", "")
+
+    if doi:
+        link = f"https://doi.org/{doi}"
+        publication = f"[View publication]({link})"
+    else:
+        publication = ""
+
     print(
-        f"**{p['title']}**  \n"
-        f"{p['authors']} ({p['year']})  \n"
-        ""
+        f"""
+**{title}**
+
+{year}  
+
+{publication}
+
+<br>
+"""
     )
 ```
