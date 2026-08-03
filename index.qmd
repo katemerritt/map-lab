@@ -12,6 +12,7 @@ title: ""
 
 The MAP Lab investigates the biological and environmental mechanisms underlying psychosis. We integrate neuroimaging, blood biomarkers, environmental risk factors and computational modelling to understand why psychosis develops and how it can be predicted earlier.
 
+<br>
 
 ## Our Research
 
@@ -33,6 +34,8 @@ Inflammation, immune function and molecular markers associated with psychosis.
 
 Machine learning approaches for identifying individuals at greatest risk.
 
+<br>
+
 ## Latest News
 
 - Ethics approval obtained for our new 7T neuroimaging study.
@@ -40,6 +43,6 @@ Machine learning approaches for identifying individuals at greatest risk.
 
 <br>
 
-![](images/UCL200.jpg){width=300px}
+![](images/UCL200.jpg){width=1000px}
 
 

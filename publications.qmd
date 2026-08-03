@@ -12,6 +12,6 @@ for p in pubs:
     print(
         f"**{p['title']}**  \n"
         f"{p['authors']} ({p['year']})  \n"
-        f"Citations: {p['citations']}  \n\n"
+        ""
     )
 ```

@@ -8,12 +8,12 @@ format: html
 Division of Psychiatry  
 University College London
 
-<br>
+<div style="height: 10px;"></div>
 
 **Email:**  
 [k.merritt@ucl.ac.uk](mailto:k.merritt@ucl.ac.uk)
 
-<br>
+<div style="height: 10px;"></div>
 
 
 **Social media**
