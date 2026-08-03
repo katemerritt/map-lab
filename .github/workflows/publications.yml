@@ -30,7 +30,8 @@ jobs:
       - name: Install R packages
         run: |
           Rscript -e "install.packages('rmarkdown', repos='https://cloud.r-project.org', dependencies=TRUE)"
-
+          Rscript -e "library(rmarkdown)"
+          
       - name: Install Python packages
         run: |
           pip install requests
