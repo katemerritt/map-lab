@@ -1,9 +1,8 @@
 ---
-title: "Join"
+title: "Join the MAP Lab"
 format: html
 ---
 
-# Join the MAP Lab
 
 We welcome enquiries from:
 
@@ -13,5 +12,7 @@ We welcome enquiries from:
 - Research assistants
 
 Please get in touch if you are interested in our work.
+
+<br>
 
 ![](images/UCL200.jpg)

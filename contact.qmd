@@ -8,8 +8,13 @@ format: html
 Division of Psychiatry  
 University College London
 
+<br>
+
 **Email:**  
 [k.merritt@ucl.ac.uk](mailto:k.merritt@ucl.ac.uk)
+
+<br>
+
 
 **Social media**
 
@@ -20,6 +25,9 @@ University College London
 [LinkedIn](https://www.linkedin.com/in/kate-merritt/)
 
 [GitHub](https://github.com/katemerritt/)
+
+<br>
+
 
 
 

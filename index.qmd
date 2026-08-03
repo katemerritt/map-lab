@@ -4,6 +4,8 @@ title: ""
 
 
 ![](images/map_logo2.png)
+<br>
+
 ## Mechanisms and Prediction of Psychosis Lab
 
 ### Understanding the brain to predict and prevent psychosis.
@@ -36,4 +38,8 @@ Machine learning approaches for identifying individuals at greatest risk.
 - Ethics approval obtained for our new 7T neuroimaging study.
 - Recruiting participants for the 7T Glu-MAP study.
 
-![](images/UCL200.jpg)
+<br>
+
+![](images/UCL200.jpg){width=300px}
+
+

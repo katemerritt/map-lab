@@ -20,14 +20,22 @@ Research interests:
 - Inflammation
 - Machine learning
 
+<div class="profile-image">
 
 ![](images/KateMerritt.png){width=250px}
+
+</div>
 
 ---
 
 ## Students
 
+<div class="profile-image">
+
 ![](images/2026_lab.jpeg){width=250px}
+
+</div>
+
 [Sarah Ashley](https://link.springer.com/article/10.1007/s10803-024-06578-x) •  
 [Ava Mason](https://academic.oup.com/schizophreniabulletin/advance-article/doi/10.1093/schbul/sbaf184/8305263) •
 [Jehanita Jesuthasan](https://www.sciencedirect.com/science/article/pii/S0920996426000290) •
@@ -37,6 +45,7 @@ Shuang Wang • Maya Mathur
 ---
 
 ## Collaborators
+
 
 [Anthony David](https://www.nature.com/articles/s41380-023-02295-6) •
 [Alice Egerton](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2850582) •
@@ -57,9 +66,9 @@ Sharon Eager •
 Barbara Dymerska •
 Robin Murray •
 [Derek Jones](https://www.sciencedirect.com/science/article/pii/S2667174325001971) •
-[John Evans](LINK) •
+[John Evans](https://www.nature.com/articles/s41380-023-02295-6) •
 [Francesca Solmi](https://www.sciencedirect.com/science/article/pii/S0920996426000290) •
-[Gilbert Hangel](LINK)
+Gilbert Hangel •
 [Golam Khandaker](https://www.sciencedirect.com/science/article/pii/S0889159125004891?via%3Dihub) •
 [Rachel Upthegrove](https://www.sciencedirect.com/science/article/pii/S0889159125004891?via%3Dihub) •
 [Edward Palmer](https://www.sciencedirect.com/science/article/pii/S0889159125004891?via%3Dihub) •
