@@ -21,7 +21,7 @@ Research interests:
 - Machine learning
 
 
-  ![](images/KateMerritt.png){width=250px}
+![](images/KateMerritt.png){width=250px}
 
 ---
 
@@ -41,21 +41,21 @@ Shuang Wang • Maya Mathur
 [Anthony David](https://www.nature.com/articles/s41380-023-02295-6) •
 [Alice Egerton](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2850582) •
 [Matthew Kempton](https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2527378) •
-[Rick Adams](LINK) •
-[Daniel Hauke](LINK) •
+Rick Adams •
+Daniel Hauke •
 [Rob McCutcheon](https://www.nature.com/articles/s41380-023-01991-7) •
 [Philip McGuire](https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2527378) •
-[Katherine Beck](LINK) •
-[Benson Ku](LINK) •
-[Jennifer Dykxhoorn](LINK) •
+Katherine Beck •
+Benson Ku •
+Jennifer Dykxhoorn •
 [Camilo de la Fuente Sandoval](https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2778479) •
-[Joseph Hayes](LINK) •
-[Andy McQuillin](LINK) •
+Joseph Hayes •
+Andy McQuillin •
 [Paola Dazzan](https://academic.oup.com/schizophreniabulletin/article-abstract/47/2/444/5924248?redirectedFrom=fulltext&login=false) •
 [Dominic Oliver](https://www.sciencedirect.com/science/article/pii/S0149763424001684?via%3Dihub) •
-[Sharon Eager](LINK) •
-[Barbara Dymerska](LINK) •
-[Robin Murray](LINK) •
+Sharon Eager •
+Barbara Dymerska •
+Robin Murray •
 [Derek Jones](https://www.sciencedirect.com/science/article/pii/S2667174325001971) •
 [John Evans](LINK) •
 [Francesca Solmi](https://www.sciencedirect.com/science/article/pii/S0920996426000290) •
@@ -63,4 +63,4 @@ Shuang Wang • Maya Mathur
 [Golam Khandaker](https://www.sciencedirect.com/science/article/pii/S0889159125004891?via%3Dihub) •
 [Rachel Upthegrove](https://www.sciencedirect.com/science/article/pii/S0889159125004891?via%3Dihub) •
 [Edward Palmer](https://www.sciencedirect.com/science/article/pii/S0889159125004891?via%3Dihub) •
-[Paris Lalousis]()
+Paris Lalousis
