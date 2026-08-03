@@ -19,20 +19,22 @@ for p in pubs:
 
     if doi:
         link = f"https://doi.org/{doi}"
-        publication = f"[View publication]({link})"
+        publication = f"[DOI]({link})"
     else:
         publication = ""
 
     display(Markdown(
         f"""
+<div class="publication">
+
 **{title}**
 
-{year}
+{year} · {publication}
 
-{publication}
+</div>
 
-<br>
+---
 """
-    ))
+))
 ```
 
