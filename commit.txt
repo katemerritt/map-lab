@@ -1,0 +1,7 @@
+pause dropbox
+git pull --rebase
+[git pull in case GitHub has updated publications]
+quarto render
+git add .
+git commit -m "Meaningful description of changes"
+git push

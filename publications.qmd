@@ -1,7 +1,40 @@
 ---
-title: "Publications"
+title: ""
 ---
 
+## Selected publications
+
+**[Inflammatory markers (IL-6 and CRP) in childhood and their association with brain structure and psychotic experiences in adulthood](https://doi.org/10.1016/j.bbi.2025.106247)**  
+**K. Merritt**, E. R. Palmer, P. Luque Laguna, …, G. M. Khandaker, R. Upthegrove, G. Lewis, D. Jones, A. S. David  
+*Brain, Behavior, and Immunity* (2026)
+
+---
+
+**[The impact of cumulative obstetric complications and childhood trauma on brain volume in young people with psychotic experiences](https://doi.org/10.1038/s41380-023-02295-6)**  
+**K. Merritt**, P. Luque Laguna, A. Sethi, M. Drakesmith, S. A. Ashley, …, A. S. David  
+*Molecular Psychiatry* (2023)
+
+---
+
+**[Variability and magnitude of brain glutamate levels in schizophrenia: a meta and mega-analysis](https://doi.org/10.1038/s41380-023-01991-7)**  
+**K. Merritt**, R. A. McCutcheon, A. Aleman, …, 1H-MRS in Schizophrenia Investigators  
+*Molecular Psychiatry* (2023)
+
+---
+
+**[Association of age, antipsychotic medication, and symptom severity in schizophrenia with proton magnetic resonance spectroscopy brain glutamate level: a mega-analysis](https://doi.org/10.1001/jamapsychiatry.2021.3171)**  
+**K. Merritt**, P. K. McGuire, A. Egerton, 1H-MRS in Schizophrenia Investigators  
+*JAMA Psychiatry* (2021)
+
+---
+
+**[Nature of glutamate alterations in schizophrenia: a meta-analysis of proton magnetic resonance spectroscopy studies](https://doi.org/10.1001/jamapsychiatry.2016.0442)**  
+**K. Merritt**, A. Egerton, M. J. Kempton, M. J. Taylor, P. K. McGuire  
+*JAMA Psychiatry* (2016)
+
+---
+
+## All publications
 
 ```{python}
 #| echo: false
